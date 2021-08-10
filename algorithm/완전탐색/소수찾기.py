@@ -73,3 +73,36 @@ def solution(numbers):
         answer += sosu(i)
     
     return answer
+
+#########################
+# 내풀이3 (소수탐색 최적화)
+arr=[]
+
+def sosu(num):  
+    if num == 1:
+        return 0
+    else:
+        for i in range(2,int(num**(1/2)+1)): # 탐색범위축소
+            if num%i==0:
+                return 0
+    return 1
+
+def find(numbers, num):
+    
+    for i in range(len(numbers)):
+        num2 = num
+        if len(num2)==0 and numbers[i]=='0':
+            continue
+        else:
+            num2 += str(numbers[i])
+            arr.append(int(num2))
+            find(numbers[0:i]+numbers[i+1:],num2)
+                   
+def solution(numbers):
+    answer = 0
+    num=""
+    find(numbers,num)
+    for i in set(arr):
+        answer += sosu(i)
+    
+    return answer
