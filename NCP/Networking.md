@@ -71,7 +71,7 @@ http/https일경우는 X-Forwarer를 이용해 클라이언트 ip를 확인해�
 
 - 생성 후 설정 가능 내용
 
-  HPPT Keep Alive ON/Off(Default Off)
+  HTTP Keep Alive ON/Off(Default Off)
 
   Connection Idle Time(Default: 60sec)
 
