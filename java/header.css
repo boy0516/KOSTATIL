@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+
+#main ul{
+	margin-left:50%;
+	margin-right: 5%;
+}
+
+#main img{
+	float:left;
+	height:50px;
+}
+#main li{
+	list-style:none;
+	display:inline;
+	font-size: 30px;
+	
+}
+
+#menu{
+	background-color: gray;
+	
+}
+
+#menu ul{
+	margin-left:40%;
+	margin-right:5%;
+}
+#menu li {
+	display:inline;
+	
+	
+}
+#menu form{
+	display: inline;
+}
+
+#category{
+	margin-top:50px;
+	text-align:center;
+}
+#category div{
+	display: inline;
+	margin:15px;
+}
+
+#viewer{
+	margin-top:50px;
+	width:900px;
+	
+	float:left;
+}
+
+#navi{
+	
+}
+.view{
+	
+	
+}
+
+.view>div{
+	display:inline;
+	
+}
+
+
+.thumbnail{
+	width: 200px;
+	height:270px;
+}
+
+.leftButton{
+	float:right;
+}
+
+
