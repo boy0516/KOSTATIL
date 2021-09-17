@@ -1,0 +1,12 @@
+[{"name":"Cory","kind":"약주","price":37201,"star":4,"img_address":"image2/1.jpg"},
+{"name":"Palm","kind":"약주","price":6957,"star":1,"img_address":"image2/2.jpg"},
+{"name":"Burl","kind":"탁주","price":6459,"star":4,"img_address":"image2/3.jpg"},
+{"name":"Leighton","kind":"탁주","price":5456,"star":4,"img_address":"image2/4.jpg"},
+{"name":"Tally","kind":"과실주","price":13296,"star":2,"img_address":"image2/5.jpg"},
+{"name":"Susette","kind":"과실주","price":33147,"star":1,"img_address":"image2/6.jpg"},
+{"name":"Fredrika","kind":"증류주","price":38896,"star":1,"img_address":"image2/7.jpg"},
+{"name":"Ardenia","kind":"증류주","price":48346,"star":1,"img_address":"image2/8.jpg"},
+{"name":"Lodovico","kind":"약주","price":28158,"star":4,"img_address":"image2/9.jpg"},
+{"name":"Cammy","kind":"약주","price":34098,"star":1,"img_address":"image2/10.jpg"},
+{"name":"Ardenia2","kind":"약주","price":48346,"star":1,"img_address":"image2/8.jpg"},
+{"name":"Lodovico2","kind":"약주","price":28158,"star":4,"img_address":"image2/9.jpg"}]

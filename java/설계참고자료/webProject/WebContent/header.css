@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+
+#main ul{
+	margin-left:50%;
+	margin-right: 5%;
+}
+
+#main img{
+	float:left;
+	height:50px;
+}
+#main li{
+	list-style:none;
+	display:inline;
+	font-size: 30px;
+	
+}
+
+#menu{
+	background-color: gray;
+	
+}
+
+#menu ul{
+	margin-left:40%;
+	margin-right:5%;
+}
+#menu li {
+	display:inline;
+	
+	
+}
+#menu form{
+	display: inline;
+}
+
+#recommend{
+	position: relative;
+	width:300px; 
+	height:0px;
+	background-color: white;
+	z-index: 1;
+	margin-left:60%;
+	border: 2px solid black;
+}

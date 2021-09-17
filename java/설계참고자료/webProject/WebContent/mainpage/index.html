@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<link rel="stylesheet" type="text/css" href="header.css">
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="viewer.js"></script>
+<title>Insert title here</title>
+</head>
+<body>
+<header id='header'>
+	<div id='main'>
+		<a href='/webProject/mainpage/index.html'><img id='logo' src="image2/다운로드.png"></a>
+		<ul class="mainmenu">
+			<li>구독서비스</li>
+			<li>담화마켓(스토어)</li>
+			<li>로그인</li>
+		</ul>
+	</div>
+	<div id='menu'>
+		<ul>
+			<li>신상품</li>
+			<a href='/webProject/bestseller/best.html'><li>베스트</li></a>
+			<li>선물세트</li>
+			<li>이벤트</li>
+			<form id="searchbar">
+				<input type="search" placeholder="검색어를 입력해주세요.">
+				<button type="submit">검색</button>
+			</form>
+			
+		</ul>
+	</div>
+	<div id="recommend" style="display:none" >
+		
+	</div>
+</header>
+<section style="position: relative;">
+	<div id='banner'>
+		<div></div>
+	</div>
+	
+
+	<div id='category'>
+		<div>
+			<a href="../subpage/kind.html?kind=tj" >
+				<li><img alt="" src="image2/takjuImg.ec40a4eb.png"></li>
+				<li><label>탁주</label></li>
+			</a>
+		</div>
+		<div>
+			<a href="../subpage/kind.html?kind=yj">
+			<li><img alt="" src="image2/chungjuImg.dee3ee7e.png"></li>
+			<label>약,청주</label>
+			</a>
+		</div>
+		<div>
+			<a href="../subpage/kind.html?kind=gj">
+			<li><img alt="" src="image2/wineImg.59c55ac6.png"></li>
+			<label>과실주</label>
+			</a>
+		</div>
+		<div>
+			<a href="../subpage/kind.html?kind=jj">
+			<li><img alt="" src="image2/sojuImg.983aae01.png"></li>
+			<label>증류주</label>
+			</a>
+		</div>
+	</div>
+	<div class="slideviewer">
+		<div><button class="leftButton"></button></div>
+		<div id="viewer">
+			<div id='navi'>
+			</div>
+		</div>
+		<div><button class="rightButton"></button></div>
+	</div>
+	
+</section>
+</body>
+</html>

@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+#title{
+	font-size: 20px;
+	font-family: fantasy;
+	font-weight: bold;
+	text-align: center;
+}
+
+#list ul{
+	float:left;
+}

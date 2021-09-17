@@ -1,0 +1,95 @@
+[{
+"name" : "담은",
+"img" : "img/담은.jpg",
+"prevprice" : "32,400원",
+"nowprice" : "29,160원",
+"comment1" : "#입안을_가득_채우는_푸근함",
+"comment2" : "#카페라떼처럼_부드러운",
+"rating" : "4.8평점",
+"review" : "142리뷰",
+"value" : "takju"
+},
+{
+"name" : "겨울소주",
+"img" : "img/겨울소주.jpg",
+"prevprice" : "10,000원",
+"nowprice" : "9,000원",
+"comment1" : "#부드러움",
+"comment2" : "#곡물향",
+"rating" : "4.7평점",
+"review" : "56리뷰",
+"value" : "soju"
+},
+{
+"name" : "토박이 한산 소곡주",
+"img" : "img/토박이 한산 소곡주.jpg",
+"prevprice" : "10,000원",
+"nowprice" : "9,000원",
+"comment1" : "#앉은뱅이_술",
+"comment2" : "#백제_선비_술",
+"rating" : "4.6평점",
+"review" : "66리뷰",
+"value" : "chungju"
+},
+{
+"name" : "매실원주",
+"img" : "img/매실원주.jpg",
+"prevprice" : "",
+"nowprice" : "9,800원",
+"comment1" : "#달콤한_매실주",
+"comment2" : "#매실음료_아님!",
+"rating" : "4.7평점",
+"review" : "95리뷰",
+"value" : "riqure"
+},
+{
+"name" : "담화탁주",
+"img" : "img/담화탁주.jpg",
+"prevprice" : "",
+"nowprice" : "18,000원",
+"comment1" : "#꾸덕한_단맛",
+"comment2" : "#인생술",
+"rating" : "4.5평점",
+"review" : "68리뷰",
+"value" : "takju"
+},
+{
+"name" : "서울의 밤",
+"img" : "img/서울의밤.jpg",
+"prevprice" : "",
+"nowprice" : "14,400원",
+"comment1" : "#매실로_만든_한국의_진(GIN)",
+"comment2" : "#부드럽고_깔끔하게",
+"rating" : "4.7평점",
+"review" : "72리뷰",
+"value" : "riqure"
+},
+{
+"name" : "고흥 유자주 8%",
+"img" : "img/고흥유자주.jpg",
+"prevprice" : "",
+"nowprice" : "12,000원",
+"comment1" : "#특별한_하루를_위하여",
+"comment2" : "#달콤한_유자향",
+"rating" : "4.7평점",
+"review" : "66리뷰",
+"value" : "chungju"
+},
+{
+"name" : "복순도가 손 막걸리",
+"img" : "img/복순도가.jpg",
+"prevprice" : "",
+"nowprice" : "36,000원",
+"comment1" : "#샴페인_막걸리",
+"comment2" : "#개봉주의",
+"rating" : "4.9평점",
+"review" : "39리뷰",
+"value" : "takju"
+}]
+
+
+
+
+
+
+

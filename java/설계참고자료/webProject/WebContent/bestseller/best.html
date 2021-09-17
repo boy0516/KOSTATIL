@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>술담화, 베스트셀러</title>
+<link rel="stylesheet" href="web.css">
+
+<script src = "jquery.js" type="text/javascript"></script>
+<script src = "bestseller.js" type="text/javascript"></script>
+
+</head>
+<body>
+<header id='header'>
+	<div id='main'>
+		<a href='index.html'><img id='logo' src="image2/다운로드.png"></a>
+		<ul class="mainmenu">
+			<li>구독서비스</li>
+			<li>담화마켓(스토어)</li>
+			<li>로그인</li>
+		</ul>
+	</div>
+	<div id='menu'>
+		<ul>
+			<li>신상품</li>
+			<a href='/webProject/bestseller/best.html'><li>베스트</li></a>
+			<li>선물세트</li>
+			<li>이벤트</li>
+			<form id="searchbar">
+				<input type="search" placeholder="검색어를 입력해주세요.">
+				<button type="submit">검색</button>
+			</form>
+			
+		</ul>
+	</div>
+	<div id="recommend" style="display:none" >
+		
+	</div>
+</header>
+<section style="position:relative;">
+
+
+
+
+<div class = "head">
+	<div class = "welcome" ></div>
+	<div class = "bestsellerTitle">베스트 셀러</div>
+	<div class = "bestsellerConcept">이번주 가장 인기가 많은 술</div>
+	<div class = "bestsellerOption">
+		<div class = "optionFilter">
+			<div class = "rowFirst">
+				<button class = "label">주종</button>
+				<div class = "rowfilter01">
+					<button value = "takju" class = "drink">탁주</button>
+					<button value = "chungju" class = "drink">청주</button>
+					<button value = "wine" class = "drink">과실주</button>
+					<button value = "soju" class = "drink">소주</button> 
+				</div>
+			</div>
+			<div class = "rowSecond">
+				<button class = "label">도수</button>
+				<div class = "rowfilter02">
+					<button value = "low" class = "drinkAlcohol">저도수[0%~10%]</button>
+					<button value = "middle" class = "drinkAlcohol">낮은 중도수[10%~20%]</button>
+					<button value = "high" class = "drinkAlcohol">높은 중도수[20%~30%]</button>
+					<button value = "very-high" class = "drinkAlcohol">고도수[30%~]</button>
+				</div>
+			</div>
+			<div class = "rowThird">
+				<button class = "label">가격</button>
+				<div class = "column">
+					<p>
+					<input type = "text" id = "slider">
+					</p>
+					<div class = "priceBetween">
+						<div class = "price_01 price_common">0원</div>
+						<div class = "price_02 price_common">100,000원</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id = "rowFourth">
+	<div id = "selector">
+		<select id = "multiOption">
+			<option value = "disabled" class = "placeholder">선택</option>
+				<option value = "none">기본순</option>
+				<option value = "star_rating">인기순</option>
+				<option value = "id">최신순</option>
+				<option value = "selling_count">판매순</option>
+				<option value = "price_high">높은 가격순</option>
+				<option value = "price_low">낮은 가격순</option>
+		</select>
+	</div>
+</div>
+<div>
+	<img src = "img/광고 배너 공간.jpg" id = "banner">
+</div>
+
+<div class = "body">
+	<div id = "allProducts">
+		
+	</div>
+</div>
+
+</section>
+
+
+
+</body>
+</html>

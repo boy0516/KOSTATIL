@@ -1,0 +1,159 @@
+@charset "UTF-8";
+
+#main{
+	height: 50px;
+}
+
+#main ul{
+	margin-left:55%;
+	margin-right: 5%;
+	padding-top: 10px;
+}
+
+#main img{
+	float:left;
+	height:50px;
+}
+#main li{
+	list-style:none;
+	display:inline;
+	font-size: 20px;
+	font-family: fantasy;
+	font-weight: bold;
+	margin-left: 10px;
+}
+
+#menu{
+	background-color: gray;
+	
+}
+
+#menu ul{
+	margin-left:40%;
+	margin-right:5%;
+}
+#menu li {
+	display:inline;
+	
+	
+}
+#menu form{
+	display: inline;
+}
+#banner{
+	display: flex;
+  	justify-content: center;
+  	overflow:hidden;
+  	width: 100%;
+  	height: 350px;
+
+}
+
+#banner div{
+	display: flex;
+  	justify-content: center;
+  	background-image: url("./image2/캡처.PNG");
+  	width: 1800px;
+  	height: 350px;
+  	background-size: cover;
+  	margin-left:-150px;
+}
+
+#category{
+	display: flex;
+  	justify-content: center;
+  	text-align:center;
+	clear: both;
+	list-style: none;
+}
+#category div{
+	float:left;
+	margin:15px;
+}
+#category div img{
+	width:100px;
+}
+#category a{
+	display: inline;
+}
+
+#viewer{
+	margin-top:50px;
+	
+	width:980px;
+	
+	float:left;
+	overflow:hidden;
+}
+
+
+#navi{
+	width:10000px;
+	float:left;
+}
+
+#navi ul{
+	padding:50px;
+}
+
+#navi ul>div{
+	border: 2px solid black;
+}
+
+#navi li{
+	list-style: none;
+}
+
+.view{
+	float:left;
+	
+}
+
+.view>div{
+	float:left;
+	margin:10px;
+	
+}
+
+.thumbnail{
+	width: 200px;
+	height:270px;
+}
+
+
+.slideviewer>div{
+	float:left;
+	margin-top:250px;	
+  	
+}
+.slideviewer{
+	display: flex;
+  	justify-content: center;
+	
+}
+
+.leftButton{
+    background: url( "image2/왼쪽화살표.png" ) no-repeat;
+    border: none;
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+}
+
+.rightButton{
+    background: url( "image2/오른쪽화살표.png" ) no-repeat;
+    border: none;
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+}
+
+#recommend{
+	position: relative;
+	width:300px; 
+	height:0px;
+	background-color: white;
+	z-index: 1;
+	margin-left:60%;
+	border: 2px solid black;
+}

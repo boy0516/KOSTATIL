@@ -1,0 +1,269 @@
+@charset "UTF-8";
+
+.head{
+	width:1050px;
+	height : 500px;
+}
+
+.welcome{
+	width : 1025px;
+	height : 200px;
+	background: url("img/welcome.JPG") repeat-x 0 0;
+	margin-left: 100px;
+	display : flex;
+}
+
+.bestsellerTitle{
+	width : 1025px;
+	font-size: 25px;
+	padding-left: 450px;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	color : gray;
+	font-weight: bold;
+	margin-left: 100px;
+}
+
+.bestsellerConcept{
+	width : 1025px;
+	font-size : 15px;
+	margin-left: 100px;
+	padding-left: 420px;
+	margin-top: 30px;
+	color : gray;
+	font-weight: bold;
+	margin-bottom: 20PX;
+}
+
+
+.label{
+	margin-left: 100px;
+	margin-top : 15px;
+	width : 60px;
+	height : 50px;
+	border : 0;
+	border-radius: 8px;
+	font-size: 15px;
+	letter-spacing : 2px;
+	float: left;
+	font-weight: bold;
+	color : gray;
+	}
+
+.rowfilter01{
+	width: 400px;
+	height : 50px;
+	margin-left: 150px;
+	margin-top:30px;
+	padding-left: 40px;
+	padding-top: 25px;
+}
+
+	
+
+.rowFirst{
+	height : 70px;
+}
+
+.column{
+	padding-top : 20px;
+	padding-left : 200px;
+	margin-top: 0px;
+}
+	
+.drink{
+	margin-left: 10px;
+	background-color:transparent;
+	border: 0px;
+	font-weight: bold;
+	color:gray;
+}
+	
+.rowfilter02{
+	width: 800px;
+	height : 50px;
+	margin-left: 150px;
+	margin-top:0px;
+	padding-left: 40px;
+	padding-top: 25px;
+}
+
+.drinkAlcohol{
+	background-color:transparent;
+	border: 0px;
+	font-weight: bold;
+	color:gray;
+}
+
+.price_common{
+	margin-top: 100px;
+	padding-top:20px;
+	width : 400px;
+	height : 100px;
+	display : inline;
+	font-weight: bold;
+	color : gray;
+	font-size : 12px;
+}	
+
+.price_02{
+	padding-top: 20px;
+	margin-left: 190px;
+}
+
+
+#rowFourth{
+	
+	width : 200px;
+	height : 35px;
+	margin-top : 80px;
+	
+	margin-right: 0px;
+	margin-left: 1000px;
+}
+
+#multiOption{
+	width : 80px;
+	height: 25px;
+	font-weight: bold;
+	color : gray;
+	border : 10px;
+}
+
+
+#allProducts{
+	margin : 100px;
+	margin-top: 0px;
+	width : 1080px;
+	height : 1500px;
+}
+
+#allProducts .product{
+	width : 240px;
+	height : 320px;
+	margin : 50px;
+	margin-top : 100px;
+	display : inline;
+	float : left;
+	margin-bottom: 100px;
+	padding-top: 100px;
+}
+
+#allProducts .product_img{
+	width : 240px;
+	height : 320px;
+}
+
+#banner{
+	width : 1025px;
+	height: 200px;
+	margin-left: 100px;
+}
+
+.rating_review{
+	width : 240px;
+}
+
+.Num{
+	width : 60px;
+	margin-right: 0px;
+	display : inline;
+	margin-bottom: 20px;
+}
+
+.review{
+	margin-left: 40px;
+}
+
+
+.product_info{
+	border : 2px solid gray;
+	border-color: gray;
+}
+
+.contents_wrapper{
+	padding : 10px;
+	
+}
+
+.product a{
+	text-decoration-line : none;
+	color : gray;
+	font-weight: bold;
+}
+
+.product_img{
+	border-bottom: 1px solid gray;
+	width : 230px;
+	height : 320px;
+}
+
+.rating_review num{
+	padding-bottom: 20px;
+}
+
+#main{
+	height: 50px;
+}
+
+#main ul{
+	margin-left:55%;
+	margin-right: 5%;
+	padding-top: 10px;
+}
+
+#main img{
+	float:left;
+	height:50px;
+}
+#main li{
+	list-style:none;
+	display:inline;
+	font-size: 20px;
+	font-family: fantasy;
+	font-weight: bold;
+	margin-left: 10px;
+}
+
+#menu{
+	background-color: gray;
+	
+}
+
+#menu ul{
+	margin-left:50%;
+	margin-right:5%;
+}
+#menu li {
+	display:inline;
+	font-family: fantasy;
+	font-weight: bold;
+	
+}
+#menu form{
+	display: inline;
+}
+
+#recommend{
+	position: relative;
+	width:300px; 
+	height:0px;
+	background-color: white;
+	z-index: 1;
+	margin-left:60%;
+	border: 2px solid black;
+}
+
+#slider{
+	width : 240px;
+}
+/* .reviewNum{
+	width : 60px;
+	margin-right: 0px;
+} */
+/* #allProducts .product .sumnail{
+	margin : 0px;
+	width : 250px;
+	height : auto;
+} */
+	
