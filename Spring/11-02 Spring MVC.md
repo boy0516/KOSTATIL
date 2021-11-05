@@ -86,3 +86,33 @@ public class HelloController {
 
 이렇게 작성해주고 JSP나 HTML 파일을 만들어두면 서블릿 컨트롤러를 통해 뷰가 브라우저로 반환된다.
 
+
+
+****
+
+1. web.xml 어떤 요청을 SpringMVC(Dispatherservlet)요청을 할것인지 servlet.xml 내용에 따라서 SpringContainer를 통작한다.
+
+2. HandlerMapping 요청에 대한Controller검색 방법 정의, 기본적으로 DefaultAnnotationHandlerMapping 설정
+
+   -> url에 따라서 메서드 단위로 설정
+
+3. Controller -> 기존에 Action클래스 역할
+
+   -> 비지니스로직 호출(service 내용 호출)
+
+   -> 데이터 저장 (ModelAndVIew를 쓰거나 Model객체를 쓰거나)
+
+   -> 뷰를 설정(ModelAndView, String, url경로)
+
+4. viewResolver: view에 대한 종류를 정의
+5. view:데이터 출력 ${}
+
+
+
+- command객체
+
+  - form에서 입력한 값을 controller로 전달 방법
+
+  - form아래 input name과 Command객체 변수명 일치가 전제
+
+    
