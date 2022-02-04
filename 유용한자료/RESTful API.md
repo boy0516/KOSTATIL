@@ -90,6 +90,8 @@ delete: /team/{team_num}/members/{member_num} => 멤버 정보 삭제
 
 
 
+
+
 ```
 <resultMap id="privacy" type="eventJoinUser">
     <result property="seq" column="SEQ" />
